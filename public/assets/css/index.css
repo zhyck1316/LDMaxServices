@@ -92,6 +92,10 @@ img:hover{
 #services   .card{
     border: var(--phoenix-info) !important;
 }
+
+.counter-container{
+    padding: 0 !important;
+}
 /* ! */ 
 
 .timeline {
