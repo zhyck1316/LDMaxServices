@@ -90,12 +90,37 @@ img:hover{
     /* text-shadow: 0 0 3px var(--phoenix-gray-800); */
 }
 #services   .card{
-    border: var(--phoenix-info) !important;
+    border: var(--phoenix-info)!important;
 }
 
 .counter-container{
     padding: 0 !important;
 }
+.hover-underline-animation{
+    text-transform: uppercase;
+}
+.hover-underline-animation:hover{
+    text-decoration: underline;
+}
+/* li a{
+    text-decoration: none;
+}
+li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--phoenix-info);
+    transform-origin: bottom left;
+    transition: transform 0.75s ease-out;
+    transform: scaleX(0);
+}
+
+li a:hover::after {
+    transform: scaleX(1);
+  } */
 /* ! */ 
 
 .timeline {
