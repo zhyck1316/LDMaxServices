@@ -98,7 +98,7 @@
                 </div>
               </nav>
             </div>
-            <div class="d-flex justify-content-center mt-5">
+            <div class="d-flex justify-content-center mt-5 pb-5">
                 <div class="pt-6 pb-6 position-relative z-index-5 text-center">
                   <span class="fw-black fs-4 fs-md-5 fs-xl-6 text-gradient-info">LOYALDOG Process Services</span>
                   <h1 class="fs-2 fs-md-3 fs-xl-4 fw-medium text-700">Process Serving Solution</h1>
@@ -119,7 +119,7 @@
         <div class="bg-holder d-none d-lg-block" style="background-image:url(./public/assets/img/bg/bg-right-25.png);background-size:auto;background-position:right left;">
         </div>
 
-        <div class="container-small position-relative z-index-4">
+        <!-- <div class="container-small position-relative z-index-4">
           <div class="row gx-0 gy-8 justify-content-center">
             <div class="col-sm-6 col-md-auto me-md-5 pe-md-5 --md - text-center order-2 order-md-0">
               <h1 class="fs-5 fs-lg-7 fw-medium text-info mb-3"><span>$</span><span data-countup='{"endValue":8976,"duration":5,"suffix":""}'></span></h1>
@@ -138,7 +138,7 @@
               <h4>Stories</h4>
             </div>
           </div>
-        </div>
+        </div> -->
         
         <div class="col-lg-auto z-index-10">
           <div class="position-relative position-lg-absolute rotating-earth">
@@ -466,10 +466,9 @@
                         <div class="modal-dialog modal-dialog-scrollable">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="scrollingLongModalLabel2">See more</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs--1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <span class="fas fa-times fs--1"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="scrollingLongModalLabel2">Other Powerful Features Included:</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs--1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <span class="fas fa-times fs--1"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
-                              <h4 class="mb-3">Other Powerful Features Included:</h4>
                               <div class="row flex-between-center px-xl-1">
                                 <div class="col-md-6 order-1 order-md-0 text-center text-md-start">
                                   <h5 class="text-700">Functions</h5>
@@ -529,8 +528,8 @@
 
       <section class="pb-10 pb-xl-14">
         <div class="container-small px-lg-7 px-xxl-3">
-          <div class="row g-5 g-lg-5" >
-            <div class="col-md-6 mb-5 mb-md-0 text-center text-md-start">
+          <div class="row g-5 g-lg-5">
+            <div class="col-md-6 mb-5 mb-md-0 text-center text-md-start" id="contact">
               <h3 class="mb-3">Stay connected</h3>
               <p class="mb-5">Stay connected with LDMAX Services Help Center; LDMAX Support is available for your necessities at all times.</p>
               <div class="d-flex flex-column align-items-center align-items-md-start gap-3 gap-md-0">
@@ -551,12 +550,16 @@
             <div class="col-md-6 text-center text-md-start">
               <h3 class="mb-3">Drop us a line</h3>
               <p class="mb-5">If you have any query or suggestion , we are open to learn from you, Lets talk, reach us anytime.</p>
-              <form class="row g-4">
+              <form class="row g-4" target="_blank" action="https://formsubmit.co/9d0a4972cb0a9e133a84723e2ccb4fa0" method="POST">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/default.html#contact">
                 <div class="col-12">
+                  <input type="hidden" name="_subject" value="NEW SUBMISSION FROM LDMAX WEBSITE!">
                   <input class="form-control bg-white" type="text" name="name" placeholder="Name" required="required" />
                 </div>
                 <div class="col-12">
                   <input class="form-control bg-white" type="email" name="email" placeholder="Email" required="required" />
+                  <input type="hidden" name="_autoresponse" value="Test message, please ignore!">
                 </div>
                 <div class="col-12">
                   <textarea class="form-control bg-white" rows="6" name="message" placeholder="Message" required="required"></textarea>
