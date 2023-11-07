@@ -320,7 +320,7 @@ img:hover{
 
 #operationscontainer .icon{
     position: relative;
-    left: -55%;
+    left: -57%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -331,8 +331,8 @@ img:hover{
 
 #operationscontainer .icon .imgBx {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     transition: 0.5s;
@@ -340,7 +340,7 @@ img:hover{
     box-shadow: 0 0 0 4px var(--phoenix-info),
     0 0 0 5px rgb(106, 106, 106);
     transform: rotate(calc(360deg/5 * var(--i)));
-    transform-origin: 340px;
+    transform-origin: 420px;
     z-index: 100;
     overflow: hidden;
 }
